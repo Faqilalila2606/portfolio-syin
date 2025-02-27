@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "title": "TikTok Creator & Content Creator",
+    "description": "🎵 Creating viral content that entertains and inspires. With over {followers} followers and {likes} likes on TikTok. Open for brand collaborations and endorsements. Let's create something amazing together! ✨",
+    "viewWork": "View My Work",
+    "followers": "Followers",
+    "likes": "Likes"
+  },
+  "about": {
+    "title": "About Me",
+    "description1": "As a passionate TikTok creator, I specialize in creating engaging and viral content that resonates with my audience.",
+    "description2": "With years of experience in content creation, I've built a strong community and successfully collaborated with various brands to create authentic and impactful content that drives results."
+  },
+  "services": {
+    "title": "Services & Collaborations",
+    "subtitle": "Creative solutions for your digital content needs",
+    "contentCreation": {
+      "title": "Content Creation",
+      "description": "Creative and engaging TikTok content tailored to your brand"
+    },
+    "brandGrowth": {
+      "title": "Brand Growth",
+      "description": "Strategies to increase your brand's visibility and engagement"
+    },
+    "communityEngagement": {
+      "title": "Community Engagement",
+      "description": "Building and managing active and loyal communities"
+    },
+    "viralContent": {
+      "title": "Viral Content",
+      "description": "Creating content with viral and trending potential"
+    }
+  },
+  "contact": {
+    "title": "Let's Collaborate",
+    "description": "Ready to start a project together? Get in touch now!",
+    "formTitle": "Contact Form",
+    "formDescription": "Fill out the form below to start collaborating",
+    "form": {
+      "name": "Brand Name",
+      "email": "Business Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "submitting": "Sending..."
+    }
+  },
+  "documentation": {
+    "title": "Documentation",
+    "sections": {
+      "gettingStarted": {
+        "title": "Getting Started",
+        "content": [
+          "Welcome to our Portfolio Website! This guide will help you navigate the site based on your device.",
+          "The website is fully responsive and optimized for both desktop and mobile viewing.",
+          "Key sections include: Home, About, Experience, Services, and Contact."
+        ]
+      },
+      "navigation": {
+        "title": "Navigation Guide",
+        "content": [
+          "Desktop: Use the top navigation bar to access different sections. Hover over items for additional information.",
+          "Mobile: Tap the gear icon in the top-left corner to open the navigation menu. Swipe through sections or use the menu items.",
+          "Both devices: Use the language switcher and theme toggle in the top-right corner.",
+          "The documentation panel slides in from the right on desktop and from the left on mobile."
+        ]
+      },
+      "collaboration": {
+        "title": "Contact & Collaboration",
+        "content": [
+          "Desktop: Navigate to the Contact section using the top navigation or scroll to the bottom.",
+          "Mobile: Access the Contact form through the menu or by scrolling to the end.",
+          "Fill out the collaboration form with your details and requirements.",
+          "Track your submission status through email notifications.",
+          "Manage ongoing collaborations through your dashboard."
+        ]
+      },
+      "features": {
+        "title": "Special Features",
+        "content": [
+          "Desktop: Hover effects on navigation items and interactive elements.",
+          "Mobile: Smooth touch interactions and gesture-based navigation.",
+          "Dark/Light mode toggle for comfortable viewing on any device.",
+          "Bilingual support - switch between English and Indonesian.",
+          "Responsive images and content that adapt to your screen size.",
+          "Real-time status updates for collaboration requests."
+        ]
+      },
+      "help": {
+        "needHelp": "Need assistance? Contact us through the form or email directly. We're here to help on any device!"
+      }
+    }
+  }
+} 

@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "title": "Kreator TikTok & Konten Kreator",
+    "description": "🎵 Membuat konten viral yang menghibur dan menginspirasi. Dengan lebih dari {followers} pengikut dan {likes} suka di TikTok. Terbuka untuk kolaborasi brand dan endorsement. Mari buat sesuatu yang luar biasa bersama! ✨",
+    "viewWork": "Lihat Karya Saya",
+    "followers": "Pengikut",
+    "likes": "Suka"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "description1": "Sebagai kreator TikTok yang bersemangat, saya ahli dalam membuat konten viral yang menarik dan beresonansi dengan audiens saya.",
+    "description2": "Dengan pengalaman bertahun-tahun dalam pembuatan konten, saya telah membangun komunitas yang kuat dan berhasil berkolaborasi dengan berbagai brand untuk menciptakan konten yang otentik dan berdampak.",
+    "stats": {
+      "followers": "Pengikut",
+      "likes": "Total Suka"
+    }
+  },
+  "services": {
+    "title": "Layanan & Kolaborasi",
+    "subtitle": "Solusi kreatif untuk kebutuhan konten digital Anda",
+    "contentCreation": {
+      "title": "Pembuatan Konten",
+      "description": "Konten TikTok kreatif dan menarik yang disesuaikan dengan brand Anda"
+    },
+    "brandGrowth": {
+      "title": "Pertumbuhan Brand",
+      "description": "Strategi untuk meningkatkan visibilitas dan engagement brand Anda"
+    },
+    "communityEngagement": {
+      "title": "Keterlibatan Komunitas",
+      "description": "Membangun dan mengelola komunitas yang aktif dan loyal"
+    },
+    "viralContent": {
+      "title": "Konten Viral",
+      "description": "Menciptakan konten yang memiliki potensi viral dan trending"
+    }
+  },
+  "contact": {
+    "title": "Mari Berkolaborasi",
+    "description": "Siap untuk memulai proyek bersama? Hubungi saya sekarang!",
+    "formTitle": "Formulir Kontak",
+    "formDescription": "Isi formulir di bawah ini untuk memulai kolaborasi",
+    "form": {
+      "name": "Nama Brand",
+      "email": "Email Bisnis",
+      "subject": "Subjek",
+      "message": "Pesan",
+      "submit": "Kirim Pesan",
+      "submitting": "Mengirim..."
+    }
+  },
+  "documentation": {
+    "title": "Dokumentasi",
+    "sections": {
+      "gettingStarted": {
+        "title": "Memulai",
+        "content": [
+          "Selamat datang di Website Portfolio kami! Panduan ini akan membantu Anda menavigasi situs berdasarkan perangkat Anda.",
+          "Website ini sepenuhnya responsif dan dioptimalkan untuk tampilan desktop dan mobile.",
+          "Bagian utama meliputi: Beranda, Tentang, Pengalaman, Layanan, dan Kontak."
+        ]
+      },
+      "navigation": {
+        "title": "Panduan Navigasi",
+        "content": [
+          "Desktop: Gunakan bar navigasi atas untuk mengakses berbagai bagian. Arahkan kursor ke item untuk informasi tambahan.",
+          "Mobile: Ketuk ikon roda gigi di pojok kiri atas untuk membuka menu navigasi. Geser antar bagian atau gunakan item menu.",
+          "Kedua perangkat: Gunakan pengalih bahasa dan tema di pojok kanan atas.",
+          "Panel dokumentasi muncul dari kanan pada desktop dan dari kiri pada mobile."
+        ]
+      },
+      "collaboration": {
+        "title": "Kontak & Kolaborasi",
+        "content": [
+          "Desktop: Navigasi ke bagian Kontak menggunakan navigasi atas atau scroll ke bawah.",
+          "Mobile: Akses formulir Kontak melalui menu atau dengan menggeser ke bagian akhir.",
+          "Isi formulir kolaborasi dengan detail dan persyaratan Anda.",
+          "Pantau status pengajuan melalui notifikasi email.",
+          "Kelola kolaborasi yang sedang berlangsung melalui dashboard Anda."
+        ]
+      },
+      "features": {
+        "title": "Fitur Khusus",
+        "content": [
+          "Desktop: Efek hover pada item navigasi dan elemen interaktif.",
+          "Mobile: Interaksi sentuh yang halus dan navigasi berbasis gerakan.",
+          "Pengalih mode Gelap/Terang untuk tampilan nyaman di setiap perangkat.",
+          "Dukungan dwibahasa - beralih antara Bahasa Inggris dan Indonesia.",
+          "Gambar dan konten responsif yang menyesuaikan dengan ukuran layar Anda.",
+          "Pembaruan status real-time untuk permintaan kolaborasi."
+        ]
+      },
+      "help": {
+        "needHelp": "Butuh bantuan? Hubungi kami melalui formulir atau email langsung. Kami siap membantu di perangkat apa pun!"
+      }
+    }
+  }
+} 
