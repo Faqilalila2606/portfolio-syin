@@ -94,34 +94,29 @@ export default function Contact() {
   }, []);
 
   const onSubmit = async (data: FormData) => {
+    console.log('Submitting data:', data);
     try {
       setIsSubmitting(true);
       
-      const response = await fetch('/api/send-email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
+      // Membuat URL WhatsApp
+      const message = `Brand: ${data.brand}\nEmail: ${data.email}\nBudget: ${data.budget}\nMessage: ${data.message}`;
+      const whatsappNumber = '6285394070129'; // Ganti dengan nomor WhatsApp baru
+      const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+      // Mengarahkan pengguna ke URL WhatsApp
+      window.open(url, '_blank');
+
+      toast({
+        title: "Success!",
+        description: "Your message has been sent to WhatsApp.",
+        variant: "default",
       });
-
-      const result = await response.json();
-
-      if (result.success) {
-        toast({
-          title: "Success!",
-          description: "Your collaboration request has been sent successfully.",
-          variant: "default",
-        });
-        form.reset();
-      } else {
-        throw new Error(result.error || 'Failed to send collaboration request');
-      }
+      form.reset();
     } catch (error) {
       console.error('Error:', error);
       toast({
         title: "Error!",
-        description: "Failed to send your collaboration request. Please try again.",
+        description: "Failed to send your message. Please try again.",
         variant: "destructive",
       });
     } finally {
@@ -300,9 +295,9 @@ export default function Contact() {
                       )}
                     />
                     <Button 
-                  type="submit"
+                      type="submit"
                       className="w-full bg-gradient-to-r from-pink-600 to-blue-600 hover:from-pink-700 hover:to-blue-700"
-                  disabled={isSubmitting}
+                      disabled={isSubmitting}
                     >
                       {isSubmitting ? (
                         <>
@@ -316,7 +311,7 @@ export default function Contact() {
                         </>
                       )}
                     </Button>
-            </form>
+                  </form>
                 </Form>
               </CardContent>
             </Card>
