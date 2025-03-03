@@ -100,7 +100,7 @@ export default function Contact() {
       
       // Membuat URL WhatsApp
       const message = `Brand: ${data.brand}\nEmail: ${data.email}\nBudget: ${data.budget}\nMessage: ${data.message}`;
-      const whatsappNumber = '6285394070129'; // Ganti dengan nomor WhatsApp baru
+      const whatsappNumber = '6282198185273'; // Ganti dengan nomor WhatsApp baru
       const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
       // Mengarahkan pengguna ke URL WhatsApp
